@@ -1,0 +1,46 @@
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap:  40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px ;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+
+.banner1{
+    background-image: url('https://www.10wallpaper.com/wallpaper/2560x1920/2205/Robert_Pattinson_The_Batman_Films_5K_Poster_2560x1920.jpg');
+}
+.banner2{
+    background-image: url('https://i.pinimg.com/736x/0a/a6/61/0aa66140c3d0bde86a8de619f1bf11da.jpg');
+}
+.banner3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Jurgrt7q54eqbg6tlP8TVWFmqds6rQCeXoFv3BdWCnoeKAwTFVfkiJECTOQ_VpvT8LU&usqp=CAU');
+}
